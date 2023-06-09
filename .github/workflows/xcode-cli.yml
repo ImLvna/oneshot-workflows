@@ -1,0 +1,7 @@
+on: [workflow_dispatch]
+jobs:
+    xcode:
+        runs-on: macos-latest
+        steps:
+          - name: Setup tmate session
+            uses: mxschmitt/action-tmate@v3
